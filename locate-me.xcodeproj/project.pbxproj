@@ -23,6 +23,8 @@
 		ADCE9037132CAC0F00A8D9D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADCE9035132CAC0F00A8D9D2 /* InfoPlist.strings */; };
 		ADCE903A132CAC0F00A8D9D2 /* locate_meTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ADCE9039132CAC0F00A8D9D2 /* locate_meTests.h */; };
 		ADCE903C132CAC0F00A8D9D2 /* locate_meTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE903B132CAC0F00A8D9D2 /* locate_meTests.m */; };
+		ADCE904C132CAE4B00A8D9D2 /* locate-meViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADCE904A132CAE4B00A8D9D2 /* locate-meViewController.m */; };
+		ADCE904D132CAE4B00A8D9D2 /* locate-meViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADCE904B132CAE4B00A8D9D2 /* locate-meViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,20 +43,23 @@
 		ADCE900E132CAC0E00A8D9D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		ADCE9010132CAC0E00A8D9D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		ADCE9012132CAC0E00A8D9D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		ADCE9016132CAC0E00A8D9D2 /* locate-me-Info.plist */ = {isa = PBXFileReference; path = "locate-me-Info.plist"; sourceTree = "<group>"; };
+		ADCE9016132CAC0E00A8D9D2 /* locate-me-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "locate-me-Info.plist"; sourceTree = "<group>"; };
 		ADCE9018132CAC0E00A8D9D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ADCE901A132CAC0E00A8D9D2 /* locate-me-Prefix.pch */ = {isa = PBXFileReference; path = "locate-me-Prefix.pch"; sourceTree = "<group>"; };
+		ADCE901A132CAC0E00A8D9D2 /* locate-me-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "locate-me-Prefix.pch"; sourceTree = "<group>"; };
 		ADCE901B132CAC0E00A8D9D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ADCE901D132CAC0E00A8D9D2 /* locate_meAppDelegate.h */ = {isa = PBXFileReference; path = locate_meAppDelegate.h; sourceTree = "<group>"; };
+		ADCE901D132CAC0E00A8D9D2 /* locate_meAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = locate_meAppDelegate.h; sourceTree = "<group>"; };
 		ADCE901E132CAC0E00A8D9D2 /* locate_meAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locate_meAppDelegate.m; sourceTree = "<group>"; };
 		ADCE9021132CAC0E00A8D9D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		ADCE9024132CAC0E00A8D9D2 /* locate_me.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = locate_me.xcdatamodel; sourceTree = "<group>"; };
 		ADCE902B132CAC0F00A8D9D2 /* locate-meTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "locate-meTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ADCE9034132CAC0F00A8D9D2 /* locate-meTests-Info.plist */ = {isa = PBXFileReference; path = "locate-meTests-Info.plist"; sourceTree = "<group>"; };
+		ADCE9034132CAC0F00A8D9D2 /* locate-meTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "locate-meTests-Info.plist"; sourceTree = "<group>"; };
 		ADCE9036132CAC0F00A8D9D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		ADCE9038132CAC0F00A8D9D2 /* locate-meTests-Prefix.pch */ = {isa = PBXFileReference; path = "locate-meTests-Prefix.pch"; sourceTree = "<group>"; };
+		ADCE9038132CAC0F00A8D9D2 /* locate-meTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "locate-meTests-Prefix.pch"; sourceTree = "<group>"; };
 		ADCE9039132CAC0F00A8D9D2 /* locate_meTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = locate_meTests.h; sourceTree = "<group>"; };
 		ADCE903B132CAC0F00A8D9D2 /* locate_meTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locate_meTests.m; sourceTree = "<group>"; };
+		ADCE9049132CAE4B00A8D9D2 /* locate-meViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "locate-meViewController.h"; sourceTree = "<group>"; };
+		ADCE904A132CAE4B00A8D9D2 /* locate-meViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "locate-meViewController.m"; sourceTree = "<group>"; };
+		ADCE904B132CAE4B00A8D9D2 /* locate-meViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "locate-meViewController.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +126,9 @@
 				ADCE9020132CAC0E00A8D9D2 /* MainWindow.xib */,
 				ADCE9023132CAC0E00A8D9D2 /* locate_me.xcdatamodeld */,
 				ADCE9015132CAC0E00A8D9D2 /* Supporting Files */,
+				ADCE9049132CAE4B00A8D9D2 /* locate-meViewController.h */,
+				ADCE904A132CAE4B00A8D9D2 /* locate-meViewController.m */,
+				ADCE904B132CAE4B00A8D9D2 /* locate-meViewController.xib */,
 			);
 			path = "locate-me";
 			sourceTree = "<group>";
@@ -225,6 +233,7 @@
 			files = (
 				ADCE9019132CAC0E00A8D9D2 /* InfoPlist.strings in Resources */,
 				ADCE9022132CAC0E00A8D9D2 /* MainWindow.xib in Resources */,
+				ADCE904D132CAE4B00A8D9D2 /* locate-meViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 				ADCE901C132CAC0E00A8D9D2 /* main.m in Sources */,
 				ADCE901F132CAC0E00A8D9D2 /* locate_meAppDelegate.m in Sources */,
 				ADCE9025132CAC0E00A8D9D2 /* locate_me.xcdatamodeld in Sources */,
+				ADCE904C132CAE4B00A8D9D2 /* locate-meViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +445,7 @@
 				ADCE9041132CAC0F00A8D9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ADCE9042132CAC0F00A8D9D2 /* Build configuration list for PBXNativeTarget "locate-meTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +454,7 @@
 				ADCE9044132CAC0F00A8D9D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
