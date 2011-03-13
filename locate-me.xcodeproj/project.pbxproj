@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADC751A8132D6C67008A21D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751A7132D6C67008A21D7 /* CoreLocation.framework */; };
+		ADC751AA132D6C8E008A21D7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751A9132D6C8E008A21D7 /* iAd.framework */; };
+		ADC751AC132D6CC2008A21D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751AB132D6CC2008A21D7 /* MapKit.framework */; };
 		ADCE900D132CAC0E00A8D9D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCE900C132CAC0E00A8D9D2 /* UIKit.framework */; };
 		ADCE900F132CAC0E00A8D9D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCE900E132CAC0E00A8D9D2 /* Foundation.framework */; };
 		ADCE9011132CAC0E00A8D9D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCE9010132CAC0E00A8D9D2 /* CoreGraphics.framework */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ADC751A7132D6C67008A21D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		ADC751A9132D6C8E008A21D7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		ADC751AB132D6CC2008A21D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		ADCE9008132CAC0E00A8D9D2 /* locate-me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "locate-me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCE900C132CAC0E00A8D9D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ADCE900E132CAC0E00A8D9D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +73,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC751AC132D6CC2008A21D7 /* MapKit.framework in Frameworks */,
+				ADC751AA132D6C8E008A21D7 /* iAd.framework in Frameworks */,
+				ADC751A8132D6C67008A21D7 /* CoreLocation.framework in Frameworks */,
 				ADCE900D132CAC0E00A8D9D2 /* UIKit.framework in Frameworks */,
 				ADCE900F132CAC0E00A8D9D2 /* Foundation.framework in Frameworks */,
 				ADCE9011132CAC0E00A8D9D2 /* CoreGraphics.framework in Frameworks */,
@@ -110,6 +119,9 @@
 		ADCE900B132CAC0E00A8D9D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADC751AB132D6CC2008A21D7 /* MapKit.framework */,
+				ADC751A7132D6C67008A21D7 /* CoreLocation.framework */,
+				ADC751A9132D6C8E008A21D7 /* iAd.framework */,
 				ADCE900C132CAC0E00A8D9D2 /* UIKit.framework */,
 				ADCE900E132CAC0E00A8D9D2 /* Foundation.framework */,
 				ADCE9010132CAC0E00A8D9D2 /* CoreGraphics.framework */,
