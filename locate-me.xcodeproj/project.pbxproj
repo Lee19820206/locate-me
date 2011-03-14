@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD46CBF8132E039800C48E6F /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46CBF7132E039800C48E6F /* MapLocation.m */; };
 		ADC751A8132D6C67008A21D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751A7132D6C67008A21D7 /* CoreLocation.framework */; };
 		ADC751AA132D6C8E008A21D7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751A9132D6C8E008A21D7 /* iAd.framework */; };
 		ADC751AC132D6CC2008A21D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751AB132D6CC2008A21D7 /* MapKit.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD46CBF6132E039800C48E6F /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
+		AD46CBF7132E039800C48E6F /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
 		ADC751A7132D6C67008A21D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		ADC751A9132D6C8E008A21D7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		ADC751AB132D6CC2008A21D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -140,6 +143,8 @@
 				ADCE9015132CAC0E00A8D9D2 /* Supporting Files */,
 				ADCE9049132CAE4B00A8D9D2 /* locate-meViewController.h */,
 				ADCE904A132CAE4B00A8D9D2 /* locate-meViewController.m */,
+				AD46CBF6132E039800C48E6F /* MapLocation.h */,
+				AD46CBF7132E039800C48E6F /* MapLocation.m */,
 				ADCE904B132CAE4B00A8D9D2 /* locate-meViewController.xib */,
 			);
 			path = "locate-me";
@@ -285,6 +290,7 @@
 				ADCE901F132CAC0E00A8D9D2 /* locate_meAppDelegate.m in Sources */,
 				ADCE9025132CAC0E00A8D9D2 /* locate_me.xcdatamodeld in Sources */,
 				ADCE904C132CAE4B00A8D9D2 /* locate-meViewController.m in Sources */,
+				AD46CBF8132E039800C48E6F /* MapLocation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
