@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AD46CBF8132E039800C48E6F /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = AD46CBF7132E039800C48E6F /* MapLocation.m */; };
+		ADB53E50132E2FC6007075BD /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB53E4F132E2FC6007075BD /* MediaPlayer.framework */; };
+		ADB53E53132E3420007075BD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB53E52132E3420007075BD /* MobileCoreServices.framework */; };
 		ADC751A8132D6C67008A21D7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751A7132D6C67008A21D7 /* CoreLocation.framework */; };
 		ADC751AA132D6C8E008A21D7 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751A9132D6C8E008A21D7 /* iAd.framework */; };
 		ADC751AC132D6CC2008A21D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC751AB132D6CC2008A21D7 /* MapKit.framework */; };
@@ -44,6 +46,8 @@
 /* Begin PBXFileReference section */
 		AD46CBF6132E039800C48E6F /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
 		AD46CBF7132E039800C48E6F /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
+		ADB53E4F132E2FC6007075BD /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		ADB53E52132E3420007075BD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		ADC751A7132D6C67008A21D7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		ADC751A9132D6C8E008A21D7 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		ADC751AB132D6CC2008A21D7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -76,6 +80,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADB53E53132E3420007075BD /* MobileCoreServices.framework in Frameworks */,
+				ADB53E50132E2FC6007075BD /* MediaPlayer.framework in Frameworks */,
 				ADC751AC132D6CC2008A21D7 /* MapKit.framework in Frameworks */,
 				ADC751AA132D6C8E008A21D7 /* iAd.framework in Frameworks */,
 				ADC751A8132D6C67008A21D7 /* CoreLocation.framework in Frameworks */,
@@ -122,6 +128,8 @@
 		ADCE900B132CAC0E00A8D9D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADB53E52132E3420007075BD /* MobileCoreServices.framework */,
+				ADB53E4F132E2FC6007075BD /* MediaPlayer.framework */,
 				ADC751AB132D6CC2008A21D7 /* MapKit.framework */,
 				ADC751A7132D6C67008A21D7 /* CoreLocation.framework */,
 				ADC751A9132D6C8E008A21D7 /* iAd.framework */,
